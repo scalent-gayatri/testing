@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 	_ "net/http/pprof"
-	"testing/math"
 	"time"
+
+	"github.com/scalent-gayatri/testing/math"
 )
 
 func main() {
