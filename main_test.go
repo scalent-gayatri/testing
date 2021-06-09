@@ -55,7 +55,7 @@ func Test_add(t *testing.T) {
 	}
 }
 
-func Test_subtract(t *testing.T) {
+/*func Test_subtract(t *testing.T) {
 	type args struct {
 		a int
 		b int
@@ -88,4 +88,4 @@ func Test_subtract(t *testing.T) {
 			}
 		})
 	}
-}
+}*/

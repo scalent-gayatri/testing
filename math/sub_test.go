@@ -12,16 +12,8 @@ func TestDiv(t *testing.T) {
 		args args
 		want float64
 	}{
-		{
-			name: "both positive",
-			args: args{11, 3},
-			want: 3.6666666666666665,
-		},
-		{
-			name: "first positive",
-			args: args{2, -3},
-			want: -0.6666666666666666,
-		},
+
+		// TODO: Add test cases.
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
