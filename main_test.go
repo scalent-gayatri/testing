@@ -28,7 +28,7 @@ func Test_add(t *testing.T) {
 		{
 			name: "both positive",
 			args: args{11, 3},
-			want: 10,
+			want: 19,
 		},
 		{
 			name: "first positive",
